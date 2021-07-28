@@ -8,7 +8,7 @@ namespace DesignPatternsCSharp.Behavioral.Command
 {
 	public class CommandMain
 	{
-		public static void CommandMainRunner()
+		public static void Run()
         {
             //repository pattern
             var shoppingCartRepository = new ShoppingCartRepository();

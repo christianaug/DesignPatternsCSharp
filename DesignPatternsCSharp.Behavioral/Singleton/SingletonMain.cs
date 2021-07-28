@@ -6,7 +6,7 @@ namespace DesignPatternsCSharp.Behavioral.Singleton
 {
 	public class SingletonMain
 	{
-		public static void SingletonMainRunner()
+		public static void Run()
 		{
 			var instanceOne = Singleton.Instance;
 			var instanceTwo = Singleton.Instance;

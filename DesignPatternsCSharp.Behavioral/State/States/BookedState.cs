@@ -23,7 +23,7 @@ namespace DesignPatternsCSharp.Behavioral.State
 
 		public override void EnterState(BookingContext booking)
 		{
-			booking.ShowState("Booked: Emjoy the event");
+			booking.ShowState("Booked: Enjoy the event");
 		}
 	}
 }

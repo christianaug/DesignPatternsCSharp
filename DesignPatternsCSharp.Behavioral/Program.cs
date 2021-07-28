@@ -1,4 +1,5 @@
 ﻿using System;
+using DesignPatternsCSharp.Behavioral.ChainOfResponsibility;
 using DesignPatternsCSharp.Behavioral.Command;
 using DesignPatternsCSharp.Behavioral.Singleton;
 using DesignPatternsCSharp.Behavioral.State;
@@ -10,10 +11,11 @@ namespace DesignPatternsCSharp.Behavioral
 	{
 		static void Main(string[] args)
 		{
-			//StrategyMain.StrategyMainRunner();
-			//SingletonMain.SingletonMainRunner();
-			//CommandMain.CommandMainRunner();
-			StateMain.StateMainRunner();
+			//StrategyMain.Run();
+			//SingletonMain.Run();
+			//CommandMain.Run();
+			//StateMain.Run();
+			ChainOfResponsibilityMain.Run();
 		}
 
 	}

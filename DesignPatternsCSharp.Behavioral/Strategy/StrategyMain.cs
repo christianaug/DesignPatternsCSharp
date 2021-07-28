@@ -9,7 +9,7 @@ namespace DesignPatternsCSharp.Behavioral.Strategy
 {
 	public class StrategyMain
 	{
-		public static void StrategyMainRunner()
+		public static void Run()
 		{
             #region Input
             Console.WriteLine("Please select an origin country: ");

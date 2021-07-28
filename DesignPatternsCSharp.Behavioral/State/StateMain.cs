@@ -6,7 +6,7 @@ namespace DesignPatternsCSharp.Behavioral.State
 {
 	public class StateMain
 	{
-		public static void StateMainRunner()
+		public static void Run()
 		{
 			Console.WriteLine("Please select one of the options below:\n1 - New Booking\n");
 			int option = 0;
